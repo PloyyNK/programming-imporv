@@ -1,8 +1,13 @@
+"""Pig Latin is a language game in which English words are altered, by move the fist
+consonant to the back and add ay. In case the word start with vowel, we simply add
+the word way to the back."""
+import sys
+
 # Steps
 #     : Get user sentence
 #     : Split the sentence into list of words
 #     : Check if word have vowel
-#     : Print the translated sentence
+#     : Print the translated sentence in red
 
 
 sentence = input("Enter your sentence: ").lower()
@@ -16,4 +21,5 @@ for i, word in enumerate(words):
         words[i] = word[1:] + word[0] + 'ay'
 
 translated_sentence = ' '.join(words)
-print(f"Pig Latin: {translated_sentence}")
+print("Pig Latin: ", end="")
+print(translated_sentence, file=sys.stderr)
