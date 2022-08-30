@@ -1,6 +1,7 @@
 """Randomly generate funny sidekick names using Python code
 that conforms to established style guidelines."""
-import sys, random
+import random
+import sys
 
 # Steps
 #     : Load a list of first names
@@ -33,4 +34,3 @@ while True:
         break
 
 input("\nPress Enter to exit")
-
