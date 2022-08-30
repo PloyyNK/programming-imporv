@@ -1,5 +1,5 @@
 # My Programming Improvement Plan
-This is project that create on a purpose to improve my coding skill in Python
+This is the project that create on a purpose to improve my coding skill in Python
 
 ## Description
 My plan will split into 4 weeks part.
