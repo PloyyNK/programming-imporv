@@ -20,6 +20,6 @@ for i, word in enumerate(words):
     else:
         words[i] = word[1:] + word[0] + 'ay'
 
-translated_sentence = ' '.join(words)
+TRANSLATED_SENTENCE = ' '.join(words)
 print("Pig Latin: ", end="")
-print(translated_sentence, file=sys.stderr)
+print(TRANSLATED_SENTENCE, file=sys.stderr)
